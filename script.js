@@ -14,7 +14,7 @@ while (playAgain === true) {
 
   playAgain = confirm("Do you want to play again?");
 
-  if (!playAgain); {
+  if (!playAgain) {
     alert(`Game over. Your final score is ${score}.`);
   }
 }
